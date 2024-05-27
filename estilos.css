@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url(./img/hero-bg.jpg) top center;
+    background-size: cover;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+#hero p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins";
+}
+
+.hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+header {
+    width: 300px;
+    background-color: #040b14;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0 15px;
+    z-index: 9997;
+    overflow-y: auto;
+    transition: all 0.5s;
+    
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.profile img {
+    margin: 15px auto;
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    border: 8px solid #2c2f3f;
+}
+
+.text-light {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.text-light a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.icon-menu {
+    padding: 8px;
+    text-decoration: none;
+}
+
+.icon-menu img {
+    height: 24px;
+    width: 24px;
+}
+
+.icon-menu span, i {
+    color: #a8a9b4;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 24px;
+    padding-right: 8px;
+}
+
+.header-menu {
+    display: flex;
+    padding: 30px 0 0 0;
+}
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+    display: block;
+}
+
+.section-bg {
+    background-color: #f5f8fd;
+}
+
+.container {
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+}
+
+.section-title {
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    --bs-gutter-x: 1,5rem;
+}
+
+.img-fluid {
+    max-width: 344px;
+    height: 344px;
+}
+
+.content {
+    flex: 0 0 auto;
+    width: 66%;
+}
+
+.skill-card {
+    padding: 30px;
+    width: 25%;
+}
+
+.count-box {
+    padding: 30px;
+    width: 25%;
+}
+
+.count-box i {
+    display: block;
+    font-size: 44px;
+    color: #149ddd;
+    float: left;
+    line-height: 0;
+}
+
+.count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 60px;
+    font-size: 14px;
+    color: #122f57;
+}
+
+.count-box span {
+    font-size: 48px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: #050d18;
+    margin-left: 60px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-lg-6 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+}
+
+.progress {
+    height: fit-content;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+
+.progress-bar-wrap {
+    height: fit-content;
+    background-color: #dce8f8;
+}
+.progress-bar {
+    
+
+    width: 10%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white;
+
+}
+
+progress {
+    height: fit-content
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container-skill {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
